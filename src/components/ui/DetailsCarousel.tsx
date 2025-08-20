@@ -1,12 +1,12 @@
+import { theme } from "@/src/constants/theme";
+import { Image } from "expo-image";
 import React, { useRef } from "react";
 import { Dimensions, StyleSheet, View } from "react-native";
-import { Image } from "expo-image";
+import { useSharedValue } from "react-native-reanimated";
 import Carousel, {
   ICarouselInstance,
   Pagination,
 } from "react-native-reanimated-carousel";
-import { useSharedValue } from "react-native-reanimated";
-import { theme } from "@/constants/theme";
 import { CarouselShimmer } from "./Shimmer";
 
 interface CarouselProps {

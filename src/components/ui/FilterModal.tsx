@@ -1,16 +1,16 @@
+import { theme } from "@/src/constants/theme";
+import { PriceRange } from "@/src/types";
+import { getPriceRangeDescription } from "@/src/utils/utils";
+import { FontAwesome } from "@expo/vector-icons";
 import React from "react";
 import {
   Modal,
-  View,
-  Text,
   StyleSheet,
+  Text,
   TouchableOpacity,
   TouchableWithoutFeedback,
+  View,
 } from "react-native";
-import { FontAwesome } from "@expo/vector-icons";
-import { getPriceRangeDescription } from "@/utils/utils";
-import { theme } from "@/constants/theme";
-import { PriceRange } from "@/types";
 
 interface FilterModalProps {
   visible: boolean;

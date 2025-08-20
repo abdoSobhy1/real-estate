@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, View, Text } from "react-native";
-import PropertyList from "../../components/property/PropertyList";
-import { useFavorites } from "../../context/FavoritesContext";
+import PropertyList from "@/src/components/property/PropertyList";
+import { useFavorites } from "../../src/context/FavoritesContext";
 import { FontAwesome } from "@expo/vector-icons";
-import { theme } from "../../constants/theme";
+import { theme } from "@/src/constants/theme";
 
-import { useFetchProperties } from "@/hooks/useFetchProperties";
+import { useFetchProperties } from "@/src/hooks/useFetchProperties";
 
 export default function FavoritesScreen() {
   const { favorites, isLoaded, loadFavorites } = useFavorites();

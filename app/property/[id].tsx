@@ -1,5 +1,5 @@
 import React from "react";
-import PropertyDetails from "../../components/property/PropertyDetails";
+import PropertyDetails from "../../src/components/property/PropertyDetails";
 
 export default function PropertyScreen() {
   return <PropertyDetails />;

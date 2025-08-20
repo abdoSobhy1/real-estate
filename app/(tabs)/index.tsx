@@ -1,9 +1,9 @@
+import PropertyList from "@/src/components/property/PropertyList";
+import { theme } from "@/src/constants/theme";
+import { useFavorites } from "@/src/context/FavoritesContext";
+import { useFetchProperties } from "@/src/hooks/useFetchProperties";
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
-import PropertyList from "../../components/property/PropertyList";
-import { useFavorites } from "../../context/FavoritesContext";
-import { theme } from "../../constants/theme";
-import { useFetchProperties } from "@/hooks/useFetchProperties";
+import { StyleSheet, View } from "react-native";
 
 export default function HomeScreen() {
   const [refreshing, setRefreshing] = useState(false);

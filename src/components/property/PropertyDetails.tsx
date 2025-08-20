@@ -1,19 +1,19 @@
-import React, { useEffect } from "react";
-import {
-  StyleSheet,
-  View,
-  Text,
-  ScrollView,
-  TouchableOpacity,
-} from "react-native";
+import { useFetchProperty } from "@/src/hooks/useFetchProperty";
 import { FontAwesome } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { useFavorites } from "../../context/FavoritesContext";
+import React, { useEffect } from "react";
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { contactAgentViaWhatsApp, formatPrice } from "../../utils/utils";
 import { theme } from "../../constants/theme";
+import { useFavorites } from "../../context/FavoritesContext";
+import { contactAgentViaWhatsApp, formatPrice } from "../../utils/utils";
 import DetailsCarousel from "../ui/DetailsCarousel";
-import { useFetchProperty } from "@/hooks/useFetchProperty";
 import { PropertyDetailsShimmer } from "../ui/Shimmer";
 
 const PropertyDetails: React.FC = () => {
