@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "label": "Real Estate"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +18,8 @@
         "backgroundColor": "#121212"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.abdoSobhy.realestate"
+      "package": "com.abdoSobhy.realestate",
+      "label": "Real Estate"
     },
     "web": {
       "bundler": "metro",
