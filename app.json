@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "real-estate-app",
-    "slug": "real-estate-app",
+    "name": "real-estate",
+    "slug": "real-estate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.realestateapp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7bc7c596-cd0b-4abd-ba94-ea2c1da9aaa2"
+      }
     }
   }
 }

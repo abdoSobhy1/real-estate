@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "title": "Modern Apartment with Ocean View",
+    "price": 450000,
+    "location": "Miami, FL",
+    "description": "Stunning modern apartment with breathtaking ocean views. This spacious 2-bedroom, 2-bathroom unit features floor-to-ceiling windows, a gourmet kitchen with stainless steel appliances, and a private balcony. The building offers premium amenities including a pool, fitness center, and 24-hour security. Located in a prime area close to restaurants, shopping, and entertainment.",
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Luxury Downtown Penthouse",
+    "price": 1250000,
+    "location": "New York, NY",
+    "description": "Exquisite luxury penthouse in the heart of downtown. This 3-bedroom, 3.5-bathroom residence offers panoramic city views through floor-to-ceiling windows. Features include a chef's kitchen with top-of-the-line appliances, marble bathrooms, and a spacious terrace. Building amenities include concierge service, spa, indoor pool, and private parking. Steps away from world-class dining, shopping, and cultural attractions.",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Cozy Suburban Family Home",
+    "price": 375000,
+    "location": "Austin, TX",
+    "description": "Charming family home in a peaceful suburban neighborhood. This 3-bedroom, 2-bathroom house features an open floor plan, renovated kitchen, hardwood floors, and a cozy fireplace. The spacious backyard includes a deck, perfect for outdoor entertaining. Located in a top-rated school district with easy access to parks, shopping centers, and major highways.",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Stylish Urban Loft",
+    "price": 295000,
+    "location": "Portland, OR",
+    "description": "Trendy urban loft in a converted historic building. This 1-bedroom, 1-bathroom unit features exposed brick walls, high ceilings, large windows, and original hardwood floors. The open-concept space includes a modern kitchen with a breakfast bar and built-in storage solutions. Located in a vibrant neighborhood with cafes, boutiques, and art galleries just steps away.",
+    "images": [
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Elegant Victorian Home",
+    "price": 525000,
+    "location": "San Francisco, CA",
+    "description": "Beautiful Victorian home with original architectural details. This 4-bedroom, 2.5-bathroom residence features ornate moldings, a grand staircase, stained glass windows, and hardwood floors throughout. The modernized kitchen opens to a formal dining room, and the landscaped backyard offers a private retreat. Located in a historic district with convenient access to public transportation and amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Modern Beach House",
+    "price": 875000,
+    "location": "San Diego, CA",
+    "description": "Contemporary beach house just steps from the ocean. This 3-bedroom, 2-bathroom home features an open floor plan with walls of glass to maximize the spectacular views. The gourmet kitchen includes high-end appliances and a large island. A spacious deck provides the perfect setting for outdoor dining and entertaining. Walking distance to beach access, restaurants, and local shops.",
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Budget-Friendly Starter Home",
+    "price": 185000,
+    "location": "Phoenix, AZ",
+    "description": "Perfect starter home in a well-established neighborhood. This 2-bedroom, 1-bathroom house features new flooring, fresh paint, and an updated kitchen. The fenced backyard offers plenty of space for outdoor activities and gardening. Conveniently located near schools, parks, shopping, and major commuter routes.",
+    "images": [
+      "https://images.unsplash.com/photo-1598228723793-52759bba239c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1578&q=80"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Mountain View Cabin",
+    "price": 320000,
+    "location": "Denver, CO",
+    "description": "Rustic cabin with spectacular mountain views. This 2-bedroom, 1-bathroom retreat features vaulted ceilings with exposed beams, a stone fireplace, and large windows that showcase the natural surroundings. The wrap-around deck is perfect for enjoying outdoor meals and stargazing. Just a short drive to hiking trails, ski resorts, and a charming mountain town with local amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1604014238170-4def1e4e6fcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    ]
+  }
+]
