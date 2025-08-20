@@ -1,6 +1,6 @@
-import { useState, useCallback } from "react";
+import { Property } from "@/src/types";
+import { useCallback, useState } from "react";
 import propertiesData from "../data/properties.json";
-import { Property } from "@/types";
 
 interface UsePropertiesResult {
   properties: Property[];
@@ -35,7 +35,7 @@ export function useFetchProperties(favorites: string[]): UsePropertiesResult {
     } finally {
       setLoading(false);
     }
-  }, [favorites]);
+  }, []);
 
   return {
     properties,

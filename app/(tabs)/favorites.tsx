@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { StyleSheet, View, Text } from "react-native";
 import PropertyList from "@/src/components/property/PropertyList";
-import { useFavorites } from "../../src/context/FavoritesContext";
-import { FontAwesome } from "@expo/vector-icons";
 import { theme } from "@/src/constants/theme";
+import { FontAwesome } from "@expo/vector-icons";
+import React, { useEffect, useState } from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { useFavorites } from "../../src/context/FavoritesContext";
 
 import { useFetchProperties } from "@/src/hooks/useFetchProperties";
 
@@ -53,7 +53,7 @@ export default function FavoritesScreen() {
       <PropertyList
         onRefresh={handleRefresh}
         properties={favoriteProperties}
-        loading={loading || !isLoaded}
+        loading={loading}
         refreshing={refreshing}
       />
     </View>

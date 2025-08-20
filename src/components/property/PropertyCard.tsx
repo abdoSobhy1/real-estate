@@ -1,20 +1,20 @@
+import { FontAwesome } from "@expo/vector-icons";
+import { Image } from "expo-image";
+import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
+  Dimensions,
   StyleSheet,
-  View,
   Text,
   TouchableOpacity,
   TouchableWithoutFeedback,
-  Dimensions,
+  View,
 } from "react-native";
-import { Image } from "expo-image";
-import { FontAwesome } from "@expo/vector-icons";
-import { useRouter } from "expo-router";
+import { theme } from "../../constants/theme";
 import { useFavorites } from "../../context/FavoritesContext";
 import { Property } from "../../types";
 import { formatPrice } from "../../utils/utils";
-import { theme } from "../../constants/theme";
-import { Shimmer } from "./Shimmer";
+import { Shimmer } from "../ui/Shimmer";
 
 interface PropertyCardProps {
   property: Property;

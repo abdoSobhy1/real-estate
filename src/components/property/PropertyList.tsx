@@ -1,15 +1,15 @@
 import React from "react";
-import { StyleSheet, FlatList, View, RefreshControl, Text } from "react-native";
-import PropertyCard from "../ui/PropertyCard";
-import FilterModal from "../ui/FilterModal";
+import { FlatList, RefreshControl, StyleSheet, Text, View } from "react-native";
 import { theme } from "../../constants/theme";
-import { FilterPills } from "./FilterPills";
-import { EmptyListView } from "./EmptyListView";
 import { useFilters } from "../../hooks/usePropertyFilter";
 import { useSearch } from "../../hooks/useSearch";
 import { Property } from "../../types";
+import FilterModal from "../ui/FilterModal";
 import { SearchBar } from "../ui/SearchBar";
 import { CardShimmer } from "../ui/Shimmer";
+import { EmptyListView } from "./EmptyListView";
+import { FilterPills } from "./FilterPills";
+import PropertyCard from "./PropertyCard";
 
 interface PropertyListProps {
   properties: Property[];

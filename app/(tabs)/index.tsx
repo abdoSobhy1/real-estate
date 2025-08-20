@@ -41,6 +41,8 @@ export default function HomeScreen() {
         properties={properties}
         onRefresh={handleRefresh}
         refreshing={refreshing}
+        loading={loading}
+        error={error}
       />
     </View>
   );

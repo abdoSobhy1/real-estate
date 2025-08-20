@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "real-estate",
+    "name": "Real Estate",
     "slug": "real-estate",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,9 +15,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
-        "backgroundColor": "#121212"
+        "backgroundColor": "#121212",
+        "resizeMode": "contain"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.abdoSobhy.realestate",
       "label": "Real Estate"
     },
